@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1Master.master.cs" Inherits="Team_Project_Personal_Library_Comp229.pages.Site1Master" %>
+
+<!--Page Discription Comment
+    Author:@ Barinder Kaur
+    Page:Master Page
+    Version:1.0
+    Short Description:In this application page (Master Page) We will manage the services for all the pages.
+    basically design view will be handled through this page.
+    -->
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
