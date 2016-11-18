@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Team_Project_Personal_Library_Comp229
+namespace Team_Project_Personal_Library_Comp229.pages
 {
-    public partial class About : Page
+    public partial class Site1Master : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
