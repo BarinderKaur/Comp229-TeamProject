@@ -210,6 +210,7 @@
     </Content>
     <Content Include="pages\Site1Master.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="pages\Trackingpage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -370,6 +371,12 @@
     </Compile>
     <Compile Include="pages\Site1Master.Master.designer.cs">
       <DependentUpon>Site1Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Trackingpage.aspx.cs">
+      <DependentUpon>Trackingpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Trackingpage.aspx.designer.cs">
+      <DependentUpon>Trackingpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
