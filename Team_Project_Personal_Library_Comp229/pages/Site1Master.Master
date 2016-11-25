@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1Master.master.cs" Inherits="Team_Project_Personal_Library_Comp229.pages.Site1Master" %>
 
-<!--Page Discription Comment
-    Author:@ Barinder Kaur
+<!--Page Description Comment
+    Author:@ Alrina Dmello
     Page:Master Page
     Version:1.0
     Short Description:In this application page (Master Page) We will manage the services for all the pages.
