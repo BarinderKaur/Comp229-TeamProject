@@ -14,14 +14,47 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css"/>
+    <style type="text/css">
+        .auto-style3 {
+            width: 911px;
+            background-color: #2A1608;
+        }
+        .auto-style4 {
+            width: 303px;
+            text-align: center;
+        }
+    </style>
+    </head>
+<body style="height: 259px">
     <form id="form1" runat="server">
-    <div>
+   
+       
+
+        <div class="auto-style2">
+            <asp:Image ID="Image1" runat="server" Height="190px" ImageUrl="~/Assets/banner.jpg" Width="907px" />
+        </div>
+        <br/>
+        <div>
+            <table cellpadding="2" class="auto-style3" align="center">
+                <tr>
+                    <td class="auto-style4">Home</td>
+                    <td class="auto-style4"><a href="Books.aspx">Books</a></td>
+                    <td class="auto-style4"><a href="ContactMe.aspx">Contact Us</a></td>
+                    <td class="auto-style4"><a href="Login.aspx">Login</a></td>
+                </tr>
+            </table>
+        </div>
+        <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
+        <br/>
+        <footer class="auto-style2"> 
+            &copy Copyright BARINDER KAUR & ALRINA DMELLO COMP229_TEAMPROJECT 
+        </footer>
+
     </form>
 </body>
 </html>
