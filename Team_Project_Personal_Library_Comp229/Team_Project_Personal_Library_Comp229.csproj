@@ -401,6 +401,7 @@
     </Compile>
     <Compile Include="pages\Trackingpage.aspx.cs">
       <DependentUpon>Trackingpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="pages\Trackingpage.aspx.designer.cs">
       <DependentUpon>Trackingpage.aspx</DependentUpon>
