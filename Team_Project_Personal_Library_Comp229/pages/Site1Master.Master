@@ -16,6 +16,7 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css"/>
     <style type="text/css">
+        
         .auto-style3 {
             width: 911px;
             background-color: #2A1608;
@@ -32,6 +33,15 @@
             height: 189px;
             margin-left: 441px;
             margin-top: 4px;
+        }
+        .newStyle1 {
+            color: #FFFFFF;
+            background-image: inherit;
+            background-color: #993399;
+        }
+        .auto-style7 {
+            text-align: center;
+            margin-left: 360px;
         }
     </style>
     </head>
@@ -59,10 +69,19 @@
         <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
+            <p class="auto-style2"> "<strong class="newStyle1">This is a Personal Library designed for reading books by the latest Award-winning authors.</strong></p>
+            <p class="auto-style7"> <strong class="newStyle1">&nbsp;<br />
+
+                It is a stress-buster for people who are undergoing challeging situations in life!!
+                <br />
+                Come and explore this MINI Website!!!
+                &nbsp;</strong></p>
+        
         </asp:ContentPlaceHolder>
     </div>
         <br/>
-        <footer class="auto-style2"> 
+        <footer class="auto-style2">
+             
             &copy Copyright BARINDER KAUR & ALRINA DMELLO COMP229_TEAMPROJECT 
         </footer>
 
