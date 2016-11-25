@@ -9,16 +9,23 @@
         }
         .auto-style7 {
             text-align: center;
-            width: 430px;
+            width: 489px;
+        }
+        .auto-style8 {
+            width: 464px;
+        }
+        .auto-style9 {
+            height: 28px;
+            width: 464px;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Login ID="Login1" runat="server" Height="226px" Width="780px">
+    <asp:Login ID="Login1" runat="server" Height="226px" Width="608px">
     <LayoutTemplate>
         <table cellpadding="1" cellspacing="0" style="border-collapse: collapse;">
             <tr>
-                <td class="auto-style7">
+                <td class="auto-style7"><td align ="center">
                     <table cellpadding="0">
                         <tr>
                             <td align="center" colspan="2">Log In</td>
@@ -27,7 +34,7 @@
                             <td align="right">
                                 <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">User Name:</asp:Label>
                             </td>
-                            <td>
+                            <td class="auto-style8">
                                 <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                             </td>
@@ -36,7 +43,7 @@
                             <td align="right" class="auto-style6">
                                 <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Password:</asp:Label>
                             </td>
-                            <td class="auto-style6">
+                            <td class="auto-style9">
                                 <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                             </td>

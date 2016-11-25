@@ -24,6 +24,15 @@
             width: 303px;
             text-align: center;
         }
+        .auto-style5 {
+            margin-left: 0px;
+        }
+        .auto-style6 {
+            width: 249px;
+            height: 189px;
+            margin-left: 441px;
+            margin-top: 4px;
+        }
     </style>
     </head>
 <body style="height: 259px">
@@ -32,8 +41,10 @@
        
 
         <div class="auto-style2">
-            <asp:Image ID="Image1" runat="server" Height="190px" ImageUrl="~/Assets/banner.jpg" Width="907px" />
+            <asp:Image ID="Image1" runat="server" Height="190px" ImageUrl="~/Assets/banner.jpg" Width="907px" CssClass="auto-style5" />
         </div>
+        <div>
+            <img alt="This is a personal library front page" class="auto-style6" src="../Assets/Logo.jpg" /></div>
         <br/>
         <div>
             <table cellpadding="2" class="auto-style3" align="center">

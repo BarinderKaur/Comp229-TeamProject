@@ -199,6 +199,7 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Assets\banner.jpg" />
     <Content Include="Assets\body.jpg" />
+    <Content Include="Assets\Logo.jpg" />
     <Content Include="pages\Login.aspx" />
     <Content Include="pages\Books.aspx" />
     <Content Include="pages\ContactMe.aspx" />
