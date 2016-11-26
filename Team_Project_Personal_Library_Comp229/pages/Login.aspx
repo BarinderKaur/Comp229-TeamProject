@@ -15,13 +15,19 @@
             width: 464px;
         }
         .auto-style9 {
-            height: 28px;
+            height: 30px;
             width: 464px;
         }
+    .auto-style10 {
+        height: 30px;
+        width: 249px;
+        margin-left: 441px;
+        margin-top: 4px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Login ID="Login1" runat="server" Height="226px" Width="608px">
+    <asp:Login ID="Login1" runat="server" Height="188px" Width="674px">
     <LayoutTemplate>
         <table cellpadding="1" cellspacing="0" style="border-collapse: collapse;">
             <tr>
@@ -40,12 +46,11 @@
                             </td>
                         </tr>
                         <tr>
-                            <td align="right" class="auto-style6">
+                            <td align="right" class="auto-style10">
                                 <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Password:</asp:Label>
                             </td>
                             <td class="auto-style9">
                                 <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                             </td>
                         </tr>
                         <tr>

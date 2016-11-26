@@ -30,8 +30,9 @@
         .auto-style6 {
             width: 249px;
             height: 189px;
-            margin-left: 441px;
+            margin-left: 339px;
             margin-top: 4px;
+            margin-right: 2px;
         }
     </style>
     </head>
@@ -49,7 +50,7 @@
         <div>
             <table cellpadding="2" class="auto-style3" align="center">
                 <tr>
-                    <td class="auto-style4">Home</td>
+                    <td class="auto-style4"><a href="Tracking.aspx">Home</a></td>
                     <td class="auto-style4"><a href="Books.aspx">Books</a></td>
                     <td class="auto-style4"><a href="ContactMe.aspx">Contact Us</a></td>
                     <td class="auto-style4"><a href="Login.aspx">Login</a></td>
