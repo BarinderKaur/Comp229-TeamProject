@@ -199,7 +199,13 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Assets\banner.jpg" />
     <Content Include="Assets\body.jpg" />
+    <Content Include="Assets\how_we met.jpg" />
+    <Content Include="Assets\kite.jpg" />
+    <Content Include="Assets\life and rules.jpg" />
+    <Content Include="Assets\lifeof akid.jpg" />
     <Content Include="Assets\Logo.jpg" />
+    <Content Include="Assets\the equity.jpg" />
+    <Content Include="Assets\The_aura_img.jpg" />
     <Content Include="pages\Login.aspx" />
     <Content Include="pages\Books.aspx" />
     <Content Include="pages\ContactMe.aspx" />

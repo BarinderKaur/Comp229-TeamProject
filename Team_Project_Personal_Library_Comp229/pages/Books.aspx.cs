@@ -13,5 +13,10 @@ namespace Team_Project_Personal_Library_Comp229.pages
         {
 
         }
+
+        protected void Book_title_MenuItemClick(object sender, MenuEventArgs e)
+        {
+
+        }
     }
 }
