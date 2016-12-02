@@ -1,10 +1,12 @@
-﻿body {
+﻿body 
+{
 font-family:sans-serif;
 background:url("Assets/body.jpg");
 }
 
 .div{
     background-image: url('/Assets/banner.jpg');
+ 
 }
  .auto-style1 {
             width: 100%;
@@ -20,5 +22,5 @@ table {
     font-size: large;
     font-weight: lighter;
     font-style: normal;
-    color: #CCCCCC;
+    color: #FFF8DC;
 }
