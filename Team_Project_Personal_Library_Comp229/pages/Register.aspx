@@ -57,11 +57,11 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style12"><asp:Button ID="Button1" runat="server" Text="Register" />
+
+                </td>
             </tr>
         </table>
 
-    &nbsp;<asp:Button ID="Button1" runat="server" Text="Register" />
-
-    </div>
+    &nbsp;</div>
 </asp:Content>
