@@ -206,6 +206,7 @@
     <Content Include="Assets\Logo.jpg" />
     <Content Include="Assets\the equity.jpg" />
     <Content Include="Assets\The_aura_img.jpg" />
+    <Content Include="pages\LIFE AND RULES.aspx" />
     <Content Include="pages\Login.aspx" />
     <Content Include="pages\Books.aspx" />
     <Content Include="pages\ContactMe.aspx" />
@@ -222,6 +223,8 @@
     </Content>
     <Content Include="pages\Site1Master.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="pages\THE AURA.aspx" />
+    <Content Include="pages\THE EQUITY.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -377,6 +380,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="pages\LIFE AND RULES.aspx.cs">
+      <DependentUpon>LIFE AND RULES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\LIFE AND RULES.aspx.designer.cs">
+      <DependentUpon>LIFE AND RULES.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -405,6 +415,20 @@
     </Compile>
     <Compile Include="pages\Site1Master.Master.designer.cs">
       <DependentUpon>Site1Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\THE AURA.aspx.cs">
+      <DependentUpon>THE AURA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\THE AURA.aspx.designer.cs">
+      <DependentUpon>THE AURA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\THE EQUITY.aspx.cs">
+      <DependentUpon>THE EQUITY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\THE EQUITY.aspx.designer.cs">
+      <DependentUpon>THE EQUITY.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Trackingpage.aspx.cs">
       <DependentUpon>Trackingpage.aspx</DependentUpon>

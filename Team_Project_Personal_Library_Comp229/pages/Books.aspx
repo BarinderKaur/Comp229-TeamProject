@@ -14,40 +14,45 @@
         .auto-style11 {
             width: 168px;
             height: 273px;
-            margin-left: 117px;
+            margin-left: 3px;
         }
         .auto-style12 {
             width: 209px;
             height: 271px;
-            margin-left: 53px;
+            margin-left: 3px;
             margin-right: 0px;
             margin-top: 0px;
         }
         .auto-style13 {
             width: 207px;
             height: 268px;
-            margin-left: 69px;
+            margin-left: 6px;
         }
         .auto-style14 {
             width: 196px;
             height: 269px;
-            margin-left: 65px;
+            margin-left: 0px;
         }
         .auto-style15 {
-            width: 226px;
-            text-align: center;
-        }
-        .auto-style16 {
-            width: 285px;
-            text-align: center;
-        }
-        .auto-style17 {
-            width: 259px;
+            width: 201px;
             text-align: center;
         }
         .auto-style18 {
-            width: 277px;
+            width: 218px;
             text-align: center;
+        }
+        .auto-style20 {
+            width: 139px;
+            text-align: center;
+        }
+        .auto-style21 {
+            width: 226px;
+            text-align: center;
+        }
+        .auto-style22 {
+            text-align: center;
+            font-family: Algerian;
+            color: #CC0099;
         }
     </style>
 </asp:Content>
@@ -72,11 +77,19 @@
 
            <table class="auto-style1">
                <tr>
-                   <td class="auto-style15">THE AURA</td>
-                   <td class="auto-style16">THE EQUITY</td>
-                   <td class="auto-style17">LIFE AND RULES</td>
-                   <td class="auto-style18">HOW WE MET</td>
-                   <td class="auto-style2">LIFE OF A KID</td>
+                   <td class="auto-style15" style="font-family: Algerian; color: #CC0099">
+                       <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/pages/THE AURA.aspx" ToolTip="ABOUT THE BOOK">THE AURA</asp:HyperLink>
+                   </td>
+                   <td class="auto-style20" style="font-family: Algerian; color: #CC0099">
+                       <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" NavigateUrl="~/pages/THE EQUITY.aspx">THE EQUITY</asp:HyperLink>
+                   </td>
+                   <td class="auto-style18" style="font-family: Algerian; color: #CC0099">
+                       <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="~/pages/LIFE AND RULES.aspx">LIFE AND RULES</asp:HyperLink>
+                   </td>
+                   <td class="auto-style21" style="font-family: Algerian; color: #CC0099">
+                       <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White">HOW WE MET</asp:HyperLink>
+                   </td>
+                   <td class="auto-style22">&nbsp;</td>
                </tr>
            </table>
 
