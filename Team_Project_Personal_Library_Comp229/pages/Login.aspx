@@ -69,7 +69,7 @@
                             </td>
                         </tr>
                     </table>
-                    <asp:Button ID="Button1" runat="server" PostBackUrl="~/pages/Register.aspx" Text="Register" />
+                    <asp:Button ID="Button1" runat="server" PostBackUrl="~/pages/Registeration.aspx" Text="Register" />
                 </td>
             </tr>
         </table>

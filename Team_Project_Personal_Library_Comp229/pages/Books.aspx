@@ -1,62 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/Site1Master.Master" AutoEventWireup="true" CodeBehind="Books.aspx.cs" Inherits="Team_Project_Personal_Library_Comp229.pages.aboutus" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-    .auto-style8 {
-        margin-left: 276px;
-        margin-right: 48px;
-    }
-        .auto-style10 {
-            width: 203px;
-            height: 271px;
-            margin-left: 0px;
-            margin-top: 0px;
-        }
-        .auto-style11 {
-            width: 168px;
-            height: 273px;
-            margin-left: 3px;
-        }
-        .auto-style12 {
-            width: 209px;
-            height: 271px;
-            margin-left: 3px;
-            margin-right: 0px;
-            margin-top: 0px;
-        }
-        .auto-style13 {
-            width: 207px;
-            height: 268px;
-            margin-left: 6px;
-        }
-        .auto-style14 {
-            width: 196px;
-            height: 269px;
-            margin-left: 0px;
-        }
-        .auto-style15 {
-            width: 201px;
-            text-align: center;
-        }
-        .auto-style18 {
-            width: 218px;
-            text-align: center;
-        }
-        .auto-style20 {
-            width: 139px;
-            text-align: center;
-        }
-        .auto-style21 {
-            width: 226px;
-            text-align: center;
-        }
-        .auto-style22 {
-            text-align: center;
-            font-family: Algerian;
-            color: #CC0099;
-        }
-    </style>
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Book ISBN" DataSourceID="SqlDataSource1" Width="709px">
+        <Columns>
+            <asp:BoundField DataField="Author Name" HeaderText="Author Name" SortExpression="Author Name" />
+            <asp:BoundField DataField="Title of Book" HeaderText="Title of Book" SortExpression="Title of Book" />
+            <asp:BoundField DataField="Year published" HeaderText="Year published" SortExpression="Year published" />
+            <asp:BoundField DataField="Review/Rating" HeaderText="Review/Rating" SortExpression="Review/Rating" />
+            <asp:BoundField DataField="Book ISBN" HeaderText="Book ISBN" ReadOnly="True" SortExpression="Book ISBN" />
+        </Columns>
+    </asp:GridView>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Comp229_TeamProject %>" SelectCommand="SELECT * FROM [BOOK_DETAILS]"></asp:SqlDataSource>
+
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/Assets/kite.jpg" />
+    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    <br />
+    <br />
+    <asp:Label ID="lblresult" runat="server" Text="Label"></asp:Label>
 </asp:Content> 
 
                

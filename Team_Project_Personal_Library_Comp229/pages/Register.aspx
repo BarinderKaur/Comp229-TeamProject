@@ -30,7 +30,7 @@
     </p>
     <div class="auto-style2">
 
-        <table class="auto-style1">
+        <table class="auto-style1" align="center">
             <tr>
                 <td class="auto-style7">First Name</td>
                 <td class="auto-style8">
