@@ -1,0 +1,62 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Personal Library Website</title>
+</head>
+<body style="background-image: url('http://localhost:50854/images/body.jpg');">
+  <hr/>  
+    
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%">
+            <tr>
+                <td colspan="3" bgcolor="#dcdcdc">
+                    <img src="images/banner.JPG" runat="server" style="width: 911px" /></td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <br />
+                    <br />
+                   <%-- <div style="width: 79px; height: 143px">--%>
+                    <div>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TrackingPage.aspx">Home</asp:HyperLink><br />
+                        
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CreateUser.aspx">Create User</asp:HyperLink><br />
+                       
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Login.aspx">Login</asp:HyperLink><br />
+                       
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/securepage/BooksSecurePage.aspx">Books</asp:HyperLink>
+                        <br />
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ContactUs.aspx">Contact Us</asp:HyperLink>
+                    </div>
+                </td>
+                <td colspan="2">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                   <%-- <div style="width: 100%; height: 25px; text-align: center">
+                        
+                         </div>--%>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        &nbsp;</div>
+    </form>
+    <div bgcolor="#dcdcdc">
+        <hr/>
+                    <div style="width: 100%; height: 25px; text-align: center">
+                         <strong>  &copy Copyright BARINDER KAUR & ALRINA DMELLO COMP229_TEAMPROJECT </strong>
+                         </div>
+   
+</body>
+     
+</html>
