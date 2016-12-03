@@ -197,18 +197,9 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Assets\banner.jpg" />
+    <Content Include="Assets\banner.JPG" />
     <Content Include="Assets\body.jpg" />
-    <Content Include="Assets\how_we met.jpg" />
-    <Content Include="Assets\kite.jpg" />
-    <Content Include="Assets\life and rules.jpg" />
-    <Content Include="Assets\lifeof akid.jpg" />
     <Content Include="Assets\Logo.jpg" />
-    <Content Include="Assets\the equity.jpg" />
-    <Content Include="Assets\The_aura_img.jpg" />
-    <Content Include="pages\Login.aspx" />
-    <Content Include="pages\Books.aspx" />
-    <Content Include="pages\ContactMe.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -220,8 +211,18 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="pages\Site1Master.Master" />
+    <Content Include="Pages\MasterPage.master" />
+    <Content Include="Content\Web.config" />
+    <None Include="Content\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Pages\ContactMe.aspx" />
+    <Content Include="Pages\ContactUs.aspx" />
+    <Content Include="Pages\CreateUser.aspx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\StyleSheet1.css" />
+    <Content Include="Pages\TrackingPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -252,7 +253,6 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="favicon.ico" />
-    <Content Include="pages\Tracking.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -377,51 +377,27 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="pages\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Books.aspx.cs">
-      <DependentUpon>Books.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Books.aspx.designer.cs">
-      <DependentUpon>Books.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\ContactMe.aspx.cs">
-      <DependentUpon>ContactMe.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\ContactMe.aspx.designer.cs">
-      <DependentUpon>ContactMe.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="pages\Site1Master.Master.cs">
-      <DependentUpon>Site1Master.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Pages\ContactMe.aspx.cs">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Site1Master.Master.designer.cs">
-      <DependentUpon>Site1Master.Master</DependentUpon>
+    <Compile Include="Pages\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Trackingpage.aspx.cs">
-      <DependentUpon>Trackingpage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Pages\CreateUser.aspx.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Trackingpage.aspx.designer.cs">
-      <DependentUpon>Trackingpage.aspx</DependentUpon>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TrackingPage.aspx.cs">
+      <DependentUpon>TrackingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="pages\Tracking.aspx.cs">
-      <DependentUpon>Tracking.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Tracking.aspx.designer.cs">
-      <DependentUpon>Tracking.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -433,6 +409,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Myscripts\" />
+    <Folder Include="Pages\securepage\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

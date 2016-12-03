@@ -1,22 +1,17 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Trackingpage.master.cs" Inherits="Team_Project_Personal_Library_Comp229.pages.Trackingpage" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="TrackingPage.aspx.cs" Inherits="TrackingPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div style="width: 863px; height: 100px; text-align: center">
+        <br />
+        <br />
+        <strong><span style="font-size: 14pt; color: #0000ff">
+            <br />
+           Welcome to Personal Library<br /></span></strong>
+            This is a Personal Library designed for reading books by the latest Award-winning authors
+It is a stress-buster for people who are undergoing challeging situations in life!!
+Come and explore this MINI Website!!!
+            <br />
+            
         
-        </asp:ContentPlaceHolder>
     </div>
-    </form>
-</body>
-</html>
-
+</asp:Content>
 
